@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cambio Example</title>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script src="jquery.cambio.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('span').cambio({floor: true});
+  });
+  </script>
+</head>
+<body>
+
+  <p>€500 is $<span data-cambio="500 EUR to USD"></span>, £<span data-cambio="500 EUR to GBP"></span>, <span data-cambio="500 EUR to JPY"></span>¥</p>
+
+</body>
+</html>
