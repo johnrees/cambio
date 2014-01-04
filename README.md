@@ -8,7 +8,7 @@ Super simple currency exchange.
 
 ```
 $(document).ready(function(){
-  $('span').cambio({floor: true});
+  $('span').cambio();
 });
 ```
 
